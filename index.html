@@ -15,41 +15,51 @@
     <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
 </head>
 <body>
-<!-- Navbar -->
-<nav class="border-gray-200 bg-white top-0 w-full z-50 fixed">
-    <div class="flex flex-wrap items-center justify-between mx-auto py-4 px-6 md:px-16 lg:px-10 xl:px-24">
-        <!-- Logo -->
-        <a href="/" class="w-32 md:w-40 lg:w-56">
-            <img src="./img/Material/logo.png" alt="Logo">
-        </a>
+    <!-- Navbar -->
+    <nav class="border-gray-200 bg-[#0769a0] top-0 w-full z-50 fixed">
+        <div class="flex flex-wrap items-center justify-between mx-auto py-4 px-6 md:px-16 lg:px-10 xl:px-24">
+            <!-- Logo -->
+            <a href="/" class="w-32 md:w-40 lg:w-56">
+                <img src="./img/Material/logo.png" alt="Logo">
+            </a>
 
-        <!-- Toggle Button (for mobile & md) -->
-        <input type="checkbox" id="menu-toggle" class="hidden peer" />
-        <label for="menu-toggle" class="cursor-pointer lg:hidden"> <!-- Notice lg:hidden -->
-            <i class="fa-solid fa-bars text-3xl text-black duration-500 hover:text-gray-900"></i>
-        </label>
+            <!-- Toggle Button (for mobile & md) -->
+            <input type="checkbox" id="menu-toggle" class="hidden peer" />
+            <label for="menu-toggle" class="cursor-pointer lg:hidden"> <!-- Notice lg:hidden -->
+                <i class="fa-solid fa-bars text-3xl text-white duration-500 hover:text-gray-300"></i>
+            </label>
 
-        <!-- Navbar Items -->
-        <div class="hidden peer-checked:flex flex-col lg:flex lg:flex-row lg:items-center lg:w-auto bg-white lg:bg-transparent w-full lg:w-auto">
-            <ul class="font-medium flex flex-col py-4 lg:p-0 mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 text-xl">
-                <li><a href="#booking_request" class="text-2xl text-black duration-500 hover:text-[#0769a0] font-bold">Booking Request</a></li>
-                <li class="py-4 lg:py-0"><a href="#why_us" class="text-2xl text-black duration-500 hover:text-[#0769a0] font-bold">WHY US</a></li>
-                <li><a href="#listing" class="text-2xl text-black duration-500 hover:text-[#0769a0] font-bold">Listing</a></li>
-                <li class="py-4 lg:py-0"><a href="#contact" class="text-2xl text-black duration-500 hover:text-[#0769a0] font-bold">Contact Us</a></li>
-            </ul>
+            <!-- Navbar Items -->
+            <div class="hidden peer-checked:flex flex-col lg:flex lg:flex-row lg:items-center lg:w-auto bg-white lg:bg-transparent w-full lg:w-auto">
+                <ul class="font-medium flex flex-col py-4 lg:p-0 mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 text-xl">
+                    <li><a href="#booking_request" class="text-2xl text-white duration-500 hover:text-gray-300 font-bold">Booking Request</a></li>
+                    <li class="py-4 lg:py-0"><a href="#why_us" class="text-2xl text-white duration-500 hover:text-gray-300 font-bold">WHY US</a></li>
+                    <li><a href="#listing" class="text-2xl text-white duration-500 hover:text-gray-300 font-bold">Listing</a></li>
+                    <li class="py-4 lg:py-0"><a href="#contact" class="text-2xl text-white duration-500 hover:text-gray-300 font-bold">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-
-
-    <div class="px-4 md:px-12 lg:px-12 xl:px-16 pt-28 lg:pt-48 bg-[#0769a0] grid grid-cols-1 lg:grid-cols-2 gap-6 text-white">
+    <!-- banner  -->
+    <div class="px-4 md:px-12 lg:px-12 xl:px-16 pt-28 lg:pt-48 bg-white grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div>
             <h1 class="text-lg md:text-2xl lg:text-2xl">Wenn Sie eine Veranstaltung planen</h1>
             <h1 class="text-2xl md:text-5xl lg:text-5xl py-3 font-semibold">Künstliche Intelligenz unterhaltsam präsentiert</h1>
             <h1 class="text-lg md:text-2xl lg:text-2xl pb-8"> Der motivierende Keynote-Speaker zum Thema KI</h1>
 
             <p class="text-sm md:text-xl lg:text-xl">Erleben Sie <strong>Künstliche Intelligenz</strong> mit Unterhaltung, Inspiration und einem echten <strong>Wow-Effekt</strong>: Als <strong>Experte für KI</strong> gebe ich meinem Publikum einen guten Überblick und motiviere es dazu, sich mit KI zu beschäftigen. In einem <strong>interaktiven Vortrag</strong> werden Ihre Gäste aktiv eingebunden und erleben humorvolle, lebendige Momente, die noch lange nachwirken. Freuen Sie sich auf <strong>praxisnahe Inhalte</strong>, die mit viel positiver Energie präsentiert werden. So machen Sie Ihre Veranstaltung zu einem besonderen Erlebnis, das begeistert, verbindet und nachhaltig wirkt.</p>
+
+            <div class="py-6 flex items-center justify-center">
+                <img src="./img/Material/Section 1/testimonials.png" alt="" class="w-56">
+                <div>
+                    <i class="fa-light fa-star text-4xl"></i>
+                    <i class="fa-light fa-star text-4xl"></i>
+                    <i class="fa-light fa-star text-4xl"></i>
+                    <i class="fa-light fa-star text-4xl"></i>
+                    <i class="fa-light fa-star text-4xl"></i>
+                </div>
+            </div>
         </div>
         <div>
             <img src="./img/Material/Section 1/ki-keynote-speaker-publikum.jpg" alt="">
