@@ -1,4 +1,4 @@
-// Navbar code 
+// Navbar code Section
 const toggleButton = document.querySelector('label[for="menu-toggle"]');
 const navbarDefault = document.querySelector('.peer-checked + div');
 
