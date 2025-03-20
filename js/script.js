@@ -7,7 +7,7 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-// Video code 
+// Video code Section
 const previewImage = document.getElementById('preview-image');
 const video = document.getElementById('my-video');
 
