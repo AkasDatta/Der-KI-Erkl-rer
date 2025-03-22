@@ -1,4 +1,4 @@
-// Navbar code Section
+// Navbar code Section //
 const toggleButton = document.querySelector('label[for="menu-toggle"]');
 const navbarDefault = document.querySelector('.peer-checked + div');
 
@@ -7,7 +7,7 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-// Video code Section
+// Video code Section //
 const previewImage = document.getElementById('preview-image');
 const video = document.getElementById('my-video');
 
