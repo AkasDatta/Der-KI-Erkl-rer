@@ -16,3 +16,18 @@ previewImage.addEventListener('click', () => {
     video.classList.remove('hidden'); // show video
     video.play(); // play video
 });
+
+
+// Accordion section 7 
+document.querySelectorAll('.accordion-header').forEach(header => {
+  header.addEventListener('click', () => {
+    const body = header.nextElementSibling;
+    const icon = header.querySelector('.accordion-icon');
+
+    // Toggle accordion body
+    body.classList.toggle('hidden');
+
+    // Toggle icon rotation
+    icon.classList.toggle('rotate-180');
+  });
+});
