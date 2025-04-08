@@ -683,7 +683,7 @@
     <div class="px-4 md:px-12 lg:px-12 xl:px-24 py-16 bg-white">
       <h1 class="text-3xl font-bold">Kontakt</h1>
       <h2 class="text-2xl pt-4 pb-2 border-b lg:border-0 border-gray-400">Von einer gelungenen Veranstaltung sind Sie nur ein paar Klicks entfernt!</h2>
-      <div class="grid grid-cols-1 md:grid-coils-2 lg:grid-cols-2 gap-6 text-xl lg:text-2xl pt-10 pb-5">
+      <div class="grid grid-cols-1 md:grid-coils-2 lg:grid-cols-2 gap-6 text-xl lg:text-2xl pt-10 pb-10">
         <div class="border-0 lg:border-1 lg:border-r border-gray-500">
           <p>KI-Erklärer Jan Ditgen</p>
           <p>EWK Vortrags GmbH & Co. KG</p>
@@ -691,9 +691,103 @@
           <p>50996 Köln</p>
         </div>
         <div>
-          <p>Tel: +49 221 80 14 96 28</p>
+          <p><span class="font-bold">Tel:</span> +49 221 80 14 96 28</p>
           <p>ki-erklaerer-adw@ewk-institut.eu</p>
         </div>
+      </div>
+      <div class="border border-gray-400 rounded-md p-5 shadow-lg">
+        <form class="space-y-4">
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4"
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Vorname*"
+              />
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4 border-gray-500"
+                id="Name"
+                type="text"
+                name="Name"
+                placeholder="Name*"
+              />
+            </div>
+          </div>
+        
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="E-Mail*"
+                required
+              />
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4 border-gray-500"
+                id="number"
+                type="number"
+                name="number"
+                placeholder="Unternehmen"
+              />
+            </div>
+          </div>
+        
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-2/5 px-3 mb-6 md:mb-0">
+              <label class="block tracking-wide text-black text-xs font-semibold mb-2" for="address">
+                Lorem ipsum dolor, sit amet consectetur adipisicing
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4"
+                id="address"
+                type="text"
+                name="address"
+                placeholder="Your address"
+              />
+            </div>
+          </div>
+
+
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-4/6 px-3 mb-6 md:mb-0">
+              <label class="block tracking-wide text-black text-xs font-semibold mb-2" for="address">
+                Lorem ipsum dolor, sit amet consectetur adipisicing Lorem ipsum dolor sit.
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-50 text-black border border-gray-500 rounded py-3 px-4"
+                id="address"
+                type="text"
+                name="address"
+                placeholder="Veranstaltungstermin"
+              />
+            </div>
+          </div>
+
+          
+        <div>
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, deserunt.</label>
+          <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-500" placeholder="Ihre Nachricht an Jan Ditgen*"></textarea>
+        </div>
+
+        
+          <div class="mt-4">
+            <button
+              type="submit"
+              class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
+            >
+              Submit Now
+            </button>
+          </div>
+        </form>
+        
       </div>
     </div>
 
