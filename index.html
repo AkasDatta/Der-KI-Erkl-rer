@@ -17,7 +17,7 @@
 <body>
     <!-- Navbar -->
     <nav class="border-gray-200 bg-[#0769a0] top-0 w-full z-50 fixed">
-        <div class="flex flex-wrap items-center justify-between mx-auto py-4 px-6 md:px-16 lg:px-10 xl:px-24">
+        <div class="flex flex-wrap items-center justify-between mx-auto py-3 px-6 md:px-16 lg:px-10 xl:px-24">
             <!-- Logo -->
             <a href="/" class="w-32 md:w-40 lg:w-56">
                 <img src="./img/Material/logo.png" alt="Logo">
@@ -97,7 +97,7 @@
     </div>
 
     <!-- Section 2  -->
-     <div class="px-4 md:px-12 lg:px-12 xl:px-24 py-16 bg-white grid grid-cols-1 lg:grid-cols-2 items-center gap-16 md:gap-16 lg:gap-8 xl:gap-16 ">
+    <div class="px-4 md:px-12 lg:px-12 xl:px-24 py-16 bg-white grid grid-cols-1 lg:grid-cols-2 items-center gap-16 md:gap-16 lg:gap-8 xl:gap-16 ">
         <div>
             <img src="./img/Material/Section 2/wegmann-ki-blau.jpg" alt="" class="w-full object-cover">
         </div>
@@ -105,25 +105,27 @@
             <h2 class="text-2xl md:text-5xl lg:text-5xl font-semibold pb-4">KI-Erklärer Jan Ditgen</h2>
             <p class="text-sm md:text-xl lg:text-xl text-justify">Ich bin Jan Ditgen und ich brenne leidenschaftlich dafür, Menschen für das faszinierende Thema <strong>Künstliche Intelligenz</strong> zu begeistern. Meine Mission ist klar: Ich möchte Sie mitnehmen auf eine <strong>spannende und verständliche Reise</strong> ins KI-Zeitalter. Dabei setze ich auf verständliche Erklärungen und unterhaltsames Infotainment, das begeistert und gleichzeitig fundiertes Wissen vermittelt. Mir ist es wichtig, dass jeder in meinem Publikum erkennt, welche wegweisenden Weichen gerade gestellt werden. Es geht darum, KI zum einen <strong>als Chance zu verstehen</strong> und zum anderen die Risiken im Auge zu halten. In meinen Vorträgen kombiniere ich praxisnahe Beispiele, lebendige Geschichten und eine gute Prise Humor, um komplexe Zusammenhänge greifbar zu machen. Lassen Sie sich überraschen, inspirieren und motivieren – und erleben Sie, wie spannend die Zukunft sein kann.<br><br> Ich verspreche einen lebendigen Vortrag, der ihr Publikum begeistern wird.</p>
         </div>
-     </div>
+    </div>
 
     <!-- section 3  -->
     <div id="videoSection" class="px-4 md:px-12 lg:px-12 xl:px-24 py-16 bg-white">
-        <h2 class="text-2xl md:text-5xl lg:text-5xl font-semibold pb-8 lg:pb-12 text-center">Demovideo</h2>
-        <div id="video-container" class="relative">
-            <img 
-                src="./img/Material/Section 3/video preview.jpg" 
-                alt="Video Preview" 
-                id="preview-image" 
-                class="w-full cursor-pointer"
-            >
-            <video 
-                id="my-video" 
-                src="https://www.ki-keynote.de/video/ditgen-ki.mp4" 
-                class="w-full hidden" 
-                controls
-            ></video>
+      <h2 class="text-2xl md:text-5xl lg:text-5xl font-semibold pb-8 lg:pb-12 text-center">Demovideo</h2>
+      <div id="video-container" class="relative">
+        <img 
+          src="./img/Material/Section 3/video preview.jpg" 
+          alt="Video Preview" 
+          id="preview-image" 
+          class="w-full px-0 lg:px-32 h-auto lg:h-[32rem] cursor-pointer"
+        >
+        <div class="">
+          <video 
+            id="my-video" 
+            src="https://www.ki-keynote.de/video/ditgen-ki.mp4" 
+            class="w-full hidden px-0 lg:px-32 h-auto lg:h-[32rem] object-cover"
+            controls
+          ></video>
         </div>
+      </div>
     </div>
 
     <!-- Section 4  -->
@@ -598,19 +600,27 @@
         <div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-6">
             <div class="border bg-white p-5 rounded-lg shadow">
-              <h1 class="text-3xl font-bold pb-2">Praktische Beispiele</h1>
-              <p class="text-lg">Viele ist für die Teilnehmer direkt umsetzbar</p>
+              <div class="flex gap-2 items-center flex-wrap">
+                <img src="./img/Material/section 8/praktische Anwendungen.png" class="w-10 h-10" alt="">
+                <p class="text-lg">Viele ist für die Teilnehmer direkt umsetzbar</p>
+              </div>
             </div>
             <div class="bg-white border p-5 shadow rounded-md">
               <p>Besonders hervorgehoben wurde immer wieder, dass Herr Ditgen nicht die typische „Oberlehrer“-Art hat, sondern praktische Beispiele liefert. Das hat uns und den Gästen gestern Abend sehr viel Spaß gemacht. 
                 </p>
+                <!-- <div class="flex gap-2 flex-wrap">
+                  <img src="./img/Material/section 8/" alt="">
+                  <p class="font-bold pt-2">Markus Fischer, VR-Bank Bergisch Gladbach</p>
+                </div> -->
                 <p class="font-bold pt-2">Markus Fischer, VR-Bank Bergisch Gladbach</p>
             </div>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-6 py-4 lg:py-6">
             <div class="border bg-white p-5 rounded-lg shadow">
-              <h1 class="text-3xl font-bold pb-2">Interaktiv</h1>
-              <p class="text-lg">Ein Vortrag der aktiviert ermutigt</p>
+              <div class="flex gap-2 items-center flex-wrap">
+                <img src="./img/Material/section 8/Interaktiv.png" class="w-10 h-10" alt="">
+                <p class="text-lg">Ein Vortrag der aktiviert ermutigt</p>
+              </div>
             </div>
             <div class="bg-white border p-5 shadow rounded-md">
               <p>Die Teilnehmer waren voll bei der Sache und konnten sich einbringen. Kompliment für diesen gelungenen Vortrag.</p>
@@ -619,8 +629,10 @@
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-6 pb-4 lg:pb-6">
             <div class="border bg-white p-5 rounded-lg shadow">
-              <h1 class="text-3xl font-bold pb-2">Verständlich</h1>
-              <p class="text-lg">ohne Vorkenntnisse bekommen die Teilnehmer einen Einblick </p>
+              <div class="flex gap-2 items-center flex-wrap">
+                <img src="./img/Material/section 8/verständlicher Vortrag.png" class="w-10 h-10" alt="">
+                <p class="text-lg">ohne Vorkenntnisse bekommen die Teilnehmer einen Einblick </p>
+              </div>
             </div>
             <div class="bg-white border p-5 shadow rounded-md">
               <p>Während des Vortrages habe ich mich erstmalig mit KI und ChatGPT befasst, danke für den ersten Einblick und das "Eis-brechen". 
